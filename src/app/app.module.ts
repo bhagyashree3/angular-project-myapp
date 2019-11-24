@@ -8,6 +8,7 @@ import{UserModule} from './user/user.module';
 //client to server communiction
 import{HttpClientModule} from '@angular/common/http';
 
+// Doing nothing , just gettiing familair with git
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
