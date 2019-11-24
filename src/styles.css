@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url("../node_modules/bootstrap3/dist/css/bootstrap.css");
+
+body{
+    padding-top:70px;
+}
+
+.height450{
+    min-height:450px;
+}
+
+.footer{
+    height:120px;
+    background:blue;
+    color:white;
+    padding-top:10px;
+}
+
+.bgchange:hover{
+    background:pink !important;
+    color:green !important;
+    font-weight: bold !important;
+}
+
+
+

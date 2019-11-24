@@ -1,0 +1,9 @@
+[
+    {"name":"User 1", "city":"Bangalore","photo":"2.jpg"},
+    {"name":"User 2", "city":"mangalore","photo":"2.jpg"},
+    {"name":"User 3", "city":"pune","photo":"3.jpg"},
+    {"name":"User 4", "city":"mumbai","photo":"2.jpg"},
+    {"name":"User 5", "city":"chennai","photo":"2.jpg"},
+    {"name":"User 6", "city":"hyderbad","photo":"3.jpg"}
+   
+]

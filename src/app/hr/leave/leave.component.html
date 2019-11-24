@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-md-12 text-center">
+        <h3> Multi d - Array with multi level </h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <ul class="list-group">
+            <li class="list-group-item active"> Products Category </li>
+    <li class="list-group-item bgchange" *ngFor="let x of item; let i=index;" (mousemove)="getitem(i)">
+        <a> {{x.category}} </a>
+        <span class="badge"> {{x.product.length}} </span>
+    </li>
+        </ul>
+    </div>
+    <div class="col-md-9">
+        <div class="col-md-4 form-group" *ngFor="let pname of myitem">
+            <p class="well"> {{pname}} </p>
+        </div>
+    </div>
+</div>
